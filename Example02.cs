@@ -18,7 +18,6 @@
         {
             Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} Write task started..");
             _mre.Reset();
-            WriteJob();
             Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} Write task completed..");
             _mre.Set();
         }
