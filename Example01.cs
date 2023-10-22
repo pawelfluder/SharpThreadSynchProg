@@ -60,7 +60,7 @@
         private void Work()
         {
             Thread.Sleep(2000);
-            throw new Exception();
+            //throw new Exception();
         }
     }
 }
